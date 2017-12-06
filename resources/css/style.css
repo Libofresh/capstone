@@ -1,0 +1,105 @@
+html {
+  font-family: "Open Sans", "Roboto";
+  font-size: 16px;
+  color: black;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logopic {
+  display: flex;
+  margin-left: 24px;
+}
+.logopic img{
+  display: flex;
+  height: 50px;
+  width: auto;
+}
+.logotext {
+  display: flex;
+  font-size: 32px;
+  color: grey;
+}
+.logotext strong {
+  font-weight: bold;
+  color: black;
+}
+nav {
+  display: flex;
+  margin-right: 8px;
+}
+nav li {
+  display: flex;
+  margin-right: 16px;
+}
+nav a {
+  color: black;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 550px;
+  background-color: lightgrey;
+}
+.heading_pic {
+  display: flex;
+  width: 60%;
+  height: 500px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.heading_pic img{
+  width: 100%;
+  height: auto;
+}
+.heading_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 24px;
+
+}
+.heading_text1 {
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+.heading_text2 {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.heading_text3 {
+  background: dimgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 25px;
+}
+.heading_text3 p{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
