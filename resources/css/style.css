@@ -194,7 +194,7 @@ nav a {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 950px;
   background-color: lightgray;
 }
 .learning_text {
@@ -217,8 +217,9 @@ nav a {
   align-items: center;
   margin-left: 16px;
   margin-right: 16px;
+  margin-bottom: 16px;
   width: 380px;
-  height: 400px;
+  height:auto;
   background-color: white;
 }
 .learning_box_pic {
@@ -234,6 +235,7 @@ nav a {
 }
 .learning_box_text {
   margin-left: 16px;
+  margin-bottom: 16px;
 }
 .learning_box_text h3 {
   font-size: 25px;
@@ -254,4 +256,126 @@ nav a {
   color: dimgray;
   line-height: 1.5;
   margin-top: 8px;
+}
+.thesis {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.thesis_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.thesis_head {
+  display: flex;
+  flex-direction: row;
+}
+.thesis_left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.thesis_video {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.thesis_video video {
+  height: 100%;
+  width: 100%;
+}
+.thesis_video_text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+.thesis_video_text h4 {
+  font-size: 25px;
+  font-weight: bold;
+  color: gray;
+}
+.thesis_video_text h5 {
+  font-size: 18px;
+  color: dimgray;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+.thesis_right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.thesis_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.thesis_pic {
+  display: flex;
+  width: 35%;
+  height: 170px;
+  padding: 16px;
+}
+.thesis_pic img {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.thesis_pic_text {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.thesis_pic_text h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: darkgray;
+}
+.thesis_pic_text h5 {
+  font-size: 18px;
+  color: dimgray;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+#thesis1 {
+  background-color: lightgray;
+}
+.last {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  padding: 16px;
+
+}
+.last_left {
+  display: flex;
+  padding-left: 24px;
+  color: grey;
+  font-size: 16px;
+}
+.last_rigth {
+  display: flex;
+  padding-right: 24px;
+}
+.last_rigth a{
+  padding: 10px;
+  color: grey;
+  font-size: 16px;
 }
